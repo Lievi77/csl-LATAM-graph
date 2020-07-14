@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/csl-LATAM-graph/static/css/main.59b91bf8.chunk.css",
+    "main.js": "/csl-LATAM-graph/static/js/main.b7f546ec.chunk.js",
+    "main.js.map": "/csl-LATAM-graph/static/js/main.b7f546ec.chunk.js.map",
+    "runtime-main.js": "/csl-LATAM-graph/static/js/runtime-main.50c56c03.js",
+    "runtime-main.js.map": "/csl-LATAM-graph/static/js/runtime-main.50c56c03.js.map",
+    "static/js/2.6f9d6f58.chunk.js": "/csl-LATAM-graph/static/js/2.6f9d6f58.chunk.js",
+    "static/js/2.6f9d6f58.chunk.js.map": "/csl-LATAM-graph/static/js/2.6f9d6f58.chunk.js.map",
+    "index.html": "/csl-LATAM-graph/index.html",
+    "precache-manifest.1174939fb96e42f5c33f4b436a50853d.js": "/csl-LATAM-graph/precache-manifest.1174939fb96e42f5c33f4b436a50853d.js",
+    "service-worker.js": "/csl-LATAM-graph/service-worker.js",
+    "static/css/main.59b91bf8.chunk.css.map": "/csl-LATAM-graph/static/css/main.59b91bf8.chunk.css.map",
+    "static/js/2.6f9d6f58.chunk.js.LICENSE.txt": "/csl-LATAM-graph/static/js/2.6f9d6f58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50c56c03.js",
+    "static/js/2.6f9d6f58.chunk.js",
+    "static/css/main.59b91bf8.chunk.css",
+    "static/js/main.b7f546ec.chunk.js"
+  ]
+}
