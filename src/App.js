@@ -5,7 +5,8 @@ import "./App.css";
 const LATAMDim = {
   width: 425,
   height: 200,
-  data: "/data/Condensed.csv",
+  data:
+    "https://github.com/Lievi77/csl-LATAM-graph/blob/master/public/data/Condensed.csv",
 };
 
 function App() {

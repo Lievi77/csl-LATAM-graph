@@ -61,7 +61,6 @@ class CasosLATAM extends React.Component {
     d3.csv(dataPath)
       .then(function (data) {
         //format the csv file to mapped values {date, confirmed}
-        console.log(data);
 
         const novaData = []; //new array of objects
 
