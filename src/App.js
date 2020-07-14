@@ -5,7 +5,7 @@ import "./App.css";
 const LATAMDim = {
   width: 425,
   height: 200,
-  data: "/src/Condensed.csv",
+  data: "/data/Condensed.csv",
 };
 
 function App() {
