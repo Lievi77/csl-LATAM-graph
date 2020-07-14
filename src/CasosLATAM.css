@@ -1,0 +1,27 @@
+/* AXES */
+/* ticks */
+.axis line {
+  stroke: #000000;
+  stroke-width: 0.7;
+  shape-rendering: crispEdges;
+}
+
+/* axis contour */
+.axis path {
+  stroke: #000000;
+  stroke-width: 0.7;
+  shape-rendering: crispEdges;
+}
+
+/* axis text */
+.axis text {
+  fill: #000000;
+  font-family: Georgia;
+  font-size: 120%;
+}
+
+/* LINE CHART */
+path {
+  fill: none;
+  stroke: #df1d0f;
+}

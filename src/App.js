@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import CasosLATAM from "./CasosLATAM.jsx"; // import the actual graph
+import "./App.css";
+
+const LATAMDim = {
+  width: 425,
+  height: 200,
+  data: "/src/Condensed.csv",
+};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <h1>
+          Casos Confirmados por Dia de Coronavirus en Latinoamerica (LATAM)
+        </h1>
+        <body>
+          <CasosLATAM
+            width={LATAMDim.width}
+            height={LATAMDim.height}
+            data={LATAMDim.data}
+          />
+        </body>
+      </div>
     </div>
   );
 }
