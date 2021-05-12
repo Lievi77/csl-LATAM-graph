@@ -20,7 +20,7 @@ def main():
     # boolean variable; selects all the rows that satisfy the condition
     is_from_americas = covid_df.continentExp.eq("America")  # another syntax
     # alternate syntax: is_from_americas = covid_df["continentExp"] = covid_df["continentExp"] == "America"
-    # we will chain multible boolean variables
+    # we will chain multible boolean variables for Latin American Cases only
     not_latam = ["United_States_of_America", "Canada"]
 
     # to store the filtered data, save the new df in a new variable
